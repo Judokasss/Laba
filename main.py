@@ -1,12 +1,3 @@
-# 2 задание
-import math
-print ("Введите натуральное число N")
-n=int(input())
-if n>=1:
-    for k in range(n+1):
-        if math.factorial(k)>n:
-            print('Наибольшее K:', k-1)
-            break
 #3 задание
 for i in range(1, 11):
    for j in range(2, 11):
